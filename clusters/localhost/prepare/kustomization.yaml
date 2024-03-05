@@ -6,5 +6,8 @@ resources:
 - ../../../infrastructure/ufe-controller   
 - ../../../infrastructure/fluxcd    # kustomization pre ufe-controller
 
+components:
+ - ../../../components/version-developers
+
 patches:
 - path: patches/ufe-controller.service.yaml    # úprava služby ufe-controller
